@@ -1,0 +1,89 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.*.local
+*.secret
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Kubernetes secrets
+# =========================
+*-secret.yaml
+secret.yaml
+secrets.yaml
+
+# =========================
+# Helm
+# =========================
+*.tgz
+charts/*.tgz
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+
+# =========================
+# Ansible
+# =========================
+*.retry
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
